@@ -1,4 +1,5 @@
 import { StyleSheet, ImageBackground } from "react-native";
+import { StatusBar } from "expo-status-bar";
 import { LinearGradient } from "expo-linear-gradient";
 
 import StartGameScreen from "./screens/StartGameScreen";
@@ -14,6 +15,8 @@ export default function App() {
       >
         <StartGameScreen />
       </ImageBackground>
+
+      <StatusBar style="auto" />
     </LinearGradient>
   );
 }
