@@ -22,8 +22,9 @@ const styles = StyleSheet.create({
     margin: 20
   },
   numberText: {
+    fontFamily: "open-sans-bold",
     color: Color.accent500,
-    fontSize: 36,
-    fontWeight: "bold"
+    fontSize: 36
+    // fontWeight: "bold"
   }
 });
